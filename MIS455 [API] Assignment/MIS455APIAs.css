@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('/Images/Cover.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: darkolivegreen;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    flex-grow: 1;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.6); 
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative; 
+        }
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+#country-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#country-input:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #218838;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+button:hover {
+    background-color: darkolivegreen;
+}
+#country-data {
+    margin-top: 20px;
+    text-align: left;
+}
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+p {
+    margin: 5px 0;
+    color: #444;
+}
+img {
+    max-width: 100px;
+    border-radius: 4px;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #country-input {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+    }
+}
+
+.more-details-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .more-details-button:hover {
+            background-color: #218838;
+        }
+
+       
